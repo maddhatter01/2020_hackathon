@@ -1,5 +1,9 @@
 # 2020 Hackathon
 
+NOTES: GUI was giving issues, so I made it text input for functionality 
+		All you need to do is compile/run the program and your off!
+		Only 5 questions..
+
 > **Date**: Saturday, April 4th, 2020
 >
 > **Time**: 9:00am - 4:00pm PDT
