@@ -7,7 +7,7 @@ public class Questions {
 	private int answer;
 	
 	// Set the multiple choice options for a question, all question have 4 possible answers
-	public void setO(int i, String s) 
+	public void setOptions(int i, String s) 
 	{
 	    if (i == 1) 
 	    {
@@ -27,7 +27,7 @@ public class Questions {
 	}
 	
 	// Set the question
-	public void setQ(String s) 
+	public void setQuestion(String s) 
 	{
 		question = s;
 	}
@@ -39,9 +39,9 @@ public class Questions {
 	}
 	
 	// Display the question with each possible answer
-	public void showQ(int i) 
+	public void displayQuestion(int i) 
 	{
-	    System.out.println(getQ(i));
+	    System.out.println(getQuestion(i));
 	    System.out.println("1. " + opt1 + "\n2. " + opt2 + "\n3. " + opt3 + "\n4. " + opt4);
 	}
 	
@@ -52,7 +52,7 @@ public class Questions {
 	}
 	
 	// Get what the question is
-	private String getQ(int i) 
+	private String getQuestion(int i) 
 	{
 		return question;
 	}
